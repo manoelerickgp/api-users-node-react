@@ -1,0 +1,13 @@
+GET http://localhost:8800/
+
+###
+
+POST http://localhost:8800/save
+Content-Type: application/json
+
+{
+    "name": "Manoel",
+    "email": "manoel@gmail.com",
+    "fone": "381923832",
+    "birthdate": "2010/10/05"
+}
